@@ -1,12 +1,25 @@
-var bulbasaur = document.querySelector(".bulbasaur");
 var pokemonImageContainer = document.querySelector(".pokeImgContainer");
+var createPokemonImage = document.createElement("img");
+
+var bulbasaur = document.querySelector(".bulbasaur");
 var charmander = document.querySelector(".charmander");
 var squirtle = document.querySelector(".squirtle");
-var createPokemonImage = document.createElement("img");
+var ivysaur = document.querySelector(".ivysaur");
+var venusaur = document.querySelector(".venusaur");
+var charmeleon = document.querySelector(".charmeleon");
+var charizard = document.querySelector(".charizard");
+var wartortle = document.querySelector(".wartortle");
+var blastoise = document.querySelector(".blastoise");
 
 bulbasaur.addEventListener('click', function (){changeImage("bulbasaur")})
 charmander.addEventListener('click', function (){changeImage("charmander")})
 squirtle.addEventListener('click', function (){changeImage("squirtle")})
+ivysaur.addEventListener('click', function(){changeImage("ivysaur")})
+venusaur.addEventListener('click', function(){changeImage("venusaur")})
+charmeleon.addEventListener('click', function(){changeImage("charmeleon")})
+charizard.addEventListener('click', function(){changeImage("charizard")})
+wartortle.addEventListener('click', function(){changeImage("wartortle")})
+blastoise.addEventListener('click', function(){changeImage("blastoise")})
 
 function changeImage(pokemon){
 
