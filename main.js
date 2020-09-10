@@ -30,22 +30,31 @@ function changeImage(pokemon){
     
     if(pokemon === "bulbasaur"){
         makePokemonImage(pokemon)
+        greenlightAnimation()
     } else if(pokemon === "ivysaur"){
         makePokemonImage(pokemon)
+        greenlightAnimation()
     } else if(pokemon === "venusaur"){
         makePokemonImage(pokemon)
+        greenlightAnimation()
     } else if(pokemon === "charmander"){
         makePokemonImage(pokemon)
+        greenlightAnimation()
     } else if(pokemon === "charmeleon"){
         makePokemonImage(pokemon)
+        greenlightAnimation()
     } else if(pokemon === "charizard"){
         makePokemonImage(pokemon)
+        greenlightAnimation()
     } else if(pokemon === "squirtle"){
         makePokemonImage(pokemon)
+        greenlightAnimation()
     } else if(pokemon === "wartortle"){
         makePokemonImage(pokemon)
+        greenlightAnimation()
     } else if(pokemon === "blastoise"){
         makePokemonImage(pokemon)
+        greenlightAnimation()
     }
 }
 
@@ -58,6 +67,7 @@ function clearScreen(){
         pokemonImageContainer.removeChild(document.querySelector(".pokemon"))
         document.querySelector(".pokemonImgName").textContent = ""
     }
+    greenlightAnimation()
 }
 
 function makePokemonImage(pokemon){
@@ -65,4 +75,9 @@ function makePokemonImage(pokemon){
         createPokemonImage.setAttribute("class", "pokemon")
         pokemonImageContainer.appendChild(createPokemonImage)
         document.querySelector(".pokemonImgName").textContent = pokemon
+}
+
+function greenlightAnimation(){
+    document.querySelector(".greenlight").setAttribute("class", "greenlight greenlightActivate")
+    setTimeout(function(){document.querySelector(".greenlight").setAttribute("class", "greenlight") },1000)
 }

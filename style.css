@@ -44,3 +44,15 @@
     color: white;
     text-transform: capitalize;
 }
+
+.greenlight{
+    position: absolute;
+    top: 467px;
+    left: 10px;
+    height: 10px;
+    width: 20px;
+}
+
+.greenlightActivate{
+    background-color: #c0eb6c;
+}
