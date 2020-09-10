@@ -11,9 +11,9 @@ var charizard = document.querySelector(".charizard");
 var wartortle = document.querySelector(".wartortle");
 var blastoise = document.querySelector(".blastoise");
 
-bulbasaur.addEventListener('click', function (){changeImage("bulbasaur")})
-charmander.addEventListener('click', function (){changeImage("charmander")})
-squirtle.addEventListener('click', function (){changeImage("squirtle")})
+bulbasaur.addEventListener('click', function(){changeImage("bulbasaur")})
+charmander.addEventListener('click', function(){changeImage("charmander")})
+squirtle.addEventListener('click', function(){changeImage("squirtle")})
 ivysaur.addEventListener('click', function(){changeImage("ivysaur")})
 venusaur.addEventListener('click', function(){changeImage("venusaur")})
 charmeleon.addEventListener('click', function(){changeImage("charmeleon")})
